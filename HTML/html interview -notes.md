@@ -25,3 +25,8 @@ orderlist-list with specific ,number is default and we type use(1,A,a,I,i)used
 unorderList-list with specific ,bullet is defalt we use type(circle,disc,square,none)
 Discription list-used for terms and definition discription(and then use of nested list- list with another list)
 
+# 6.What is Links and images?
+-hyper links are to open another page,website,or file or move to another section with using <a> anchor tag the which context is clickable,href for distination and textlist for clickable and using attribute we can put same table or different web ages usig _self and _blank 
+And two ways Abosolute for using url for external website and then Relative links for using path for internal webiste.
+
+-|Image - used to display image on webiste and self closing tag and  src for links for image and alternatic (alt) attribute to screen reader or when image faisl there it be alternative text and for using height and width
