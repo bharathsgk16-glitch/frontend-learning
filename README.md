@@ -25,3 +25,14 @@ the concepts i learned Concepts Covered
 # Learning Outcome day2
 
 as today i leanrned of tags and sematic tags used in html
+
+# Learning of Lists
+Concepts Covered
+- Unordered list (ul)
+- Ordered list (ol)
+- List item (li)
+- Nested lists-practised using  group of orderder and unoder lists
+And then some advance lists practice of different attributes 
+# Learning Outcome day 3
+I learned when to use ordered vs unordered lists and how to structure nested lists properly and then advance tasks
+
