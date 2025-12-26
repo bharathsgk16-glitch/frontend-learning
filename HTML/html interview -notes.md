@@ -30,3 +30,6 @@ Discription list-used for terms and definition discription(and then use of neste
 And two ways Abosolute for using url for external website and then Relative links for using path for internal webiste.
 
 -|Image - used to display image on webiste and self closing tag and  src for links for image and alternatic (alt) attribute to screen reader or when image faisl there it be alternative text and for using height and width
+
+# What Html Table and its how to form it?
+To display rows and columns (the form tablur form) and its to organise data in row and column commonly used in student marks etc an then from using tags like <table>,<tr>-Table row,<td>-table data,<th>-table heading,row inside heading orn data and columns we accordingly and we use sematic taga and colspan and rowspan to extend tables

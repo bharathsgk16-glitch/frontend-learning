@@ -55,9 +55,29 @@ I learned when to use ordered vs unordered lists and how to structure nested lis
 - used attributes external and internal link
 - Add image with alt txt and mix of anchor tag
 
-## Learning Outcome
+## Learning Outcome-4
 
 I learned how to create links between pages and why the alt attribute is important
 for accessibility and SEO and using images with links.
 
 # 5-|HTML Table
+- Practiced basic table structure
+- Used thead, tbody, tfoot
+- Learned colspan and rowspan and cell spacing and paddding and use advance caption
+- Created timetable and product tables
+- Built student report mini project
+
+### 5-|HTML Table (Tasks & Miniproject Output)
+![Student Report Table](5-Tables/tasks-output.png)
+## Learning outcome
+How to stucturly create table and use various forms and tasks  and miniporjects
+
+# 6-HTMl Forms
+- Learned form elements and input types
+- Practiced radio, checkbox, dropdown,legends and other inputs
+- Built student registration form and also small tasks
+
+![Forms Output](6-forms/minipro-output.png)
+
+## Learning outcome-6
+how to use forms in html and then how to create register forms by doing tasks and miniporjects
