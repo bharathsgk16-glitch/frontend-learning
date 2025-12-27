@@ -81,3 +81,16 @@ How to stucturly create table and use various forms and tasks  and miniporjects
 
 ## Learning outcome-6
 how to use forms in html and then how to create register forms by doing tasks and miniporjects
+
+# 7-Media Tags and Meta Tags
+- Learned media elements of audio,video,iframe
+and do attributes like controls,autoplay,muted,etc
+- iframe another web page to out inside page
+- small practices on it
+## HTML Head & Meta Tags
+- Used title, charset, viewport
+- Learned basic SEO meta tags
+ ![Media Output](7-media/m-output.png)
+
+## Learning outcome-8
+how to create of vido,audio and embeded video using i frame and what is metags and how is used

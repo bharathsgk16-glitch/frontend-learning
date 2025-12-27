@@ -31,5 +31,13 @@ And two ways Abosolute for using url for external website and then Relative link
 
 -|Image - used to display image on webiste and self closing tag and  src for links for image and alternatic (alt) attribute to screen reader or when image faisl there it be alternative text and for using height and width
 
-# What Html Table and its how to form it?
+# 7.What Html Table and its how to form it?
 To display rows and columns (the form tablur form) and its to organise data in row and column commonly used in student marks etc an then from using tags like <table>,<tr>-Table row,<td>-table data,<th>-table heading,row inside heading orn data and columns we accordingly and we use sematic taga and colspan and rowspan to extend tables
+
+# 8.What html mediatags and meta tags
+ html embeded media content direclty to webpage
+ and tags like Audio tags- used to play sound file in webpage  and video used to embed video and use of  attribute  control,autoplay,loop,muted etc
+ - iframe Another webpage in our inside page
+ ###  HTML Head & Meta Tags
+- Used title, charset, viewport
+- Learned basic SEO meta tags
