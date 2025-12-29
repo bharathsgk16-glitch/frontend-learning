@@ -1,0 +1,28 @@
+/* element Selector */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* id selector */
+#main-title{
+    color: blue;
+    text-align: center;
+}
+/* Class Selector */
+.intro{
+    color: green;
+}
+/* group selector */
+p,button{
+    margin: 10px;
+}
+ /* Pesudo class */
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* Decebdant class */
+
+.box p{
+color: blueviolet;
+}

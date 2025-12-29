@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+}
+#main-t{
+    font-size: large;
+    text-align: center;
+}
+.about{
+    font-size: medium;
+  font-style: italic;
+}
+.about:hover{
+    background-color: white;
+}
+
+.decent p{
+  color: azure;
+}
