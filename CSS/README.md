@@ -8,3 +8,14 @@
 
 ## Outcomes of -1
 Learning of css basics and start the practices
+
+## Day 2- Box Model
+-  css colors inline,hex colors,RGB & RGBA with opacity HSL & HSLA 
+- css units absolute unit px,viewports,typography
+- Box Model layer of content,padding,
+border,margin
+- practicsed box-sizing  and layout spacing and practicing tasks
+
+## Outcome of -2
+Learning of colors,units,typorgraphy and box model how to use and practices
+
