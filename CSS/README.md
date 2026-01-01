@@ -19,3 +19,6 @@ border,margin
 ## Outcome of -2
 Learning of colors,units,typorgraphy and box model how to use and practices
 
+## Day 3-Display and Posting
+- learn how to dispaly by block,inline,inline-blcok and do tasks on it
+-  learn css positing by tasks and mini project

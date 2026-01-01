@@ -67,3 +67,34 @@ individual
 border actaul around padding and cotent
 margin- space outside the box 
 the be totoal box sixing which padding+border used modern days
+## What is  css positioning about?
+how the element is placed on page form left to right,top to bottom
+there is five way static,relative,aboslute,fixed,sticky
+
+static-its default or normal flow
+its doesnot reposnd to offeset
+
+relative-(refernce point)-element stays normal flowand moves relative original positon and its parent and that refence to  abosulte children we use ofset
+
+abosulte-(removed form flow) 
+its  removed from normal flow it go to nearest positioned to parent almost basley parent position is relative but if not go to viewport as parent at top somewhere so its take( loooks fornearest non-static parent)
+
+fixed-|(screent lock)-
+which is fixed to view port  scroll does not affect or removed from flow
+it stay there
+
+sticky(smart hybrid)-its act like raltive nothing normal but beacomes fixed after scroll stay there ere we give like fixed there
+
+here now we use z-inex overlapping order which explain we can keep like raltive,absolute,fixed,sticky as parent keep they z-ined as postioing 
+
+## Waht is css display |?
+diceidesw how element should appear in a page like new line or same like we algn with
+- block start in new line and takes full width
+width and height work fully so we can do margin and padding wrok fully that means edit
+
+- inline its not new line and can't edit and no width and height how much text it will take
+
+- inlineblock width and hieght work fully and its act like both block and inline so allow setting width and height with breaking
+- none element is removed completly from in html so space existing it act as not it is there and then hiding its been visible space alone that
+
+

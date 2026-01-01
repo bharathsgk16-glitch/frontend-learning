@@ -1,0 +1,61 @@
+/* .box{
+    background-color: red;
+    margin: 10px;
+    color: white;
+}
+.block{
+  display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+    width: 20px;
+    padding: 40px;
+}
+header{
+position: sticky;
+
+}
+.inlines{
+background-color: aqua;
+} */
+ /* body{
+margin: 0;
+ }
+ .f-navbar{
+background-color:blue ;
+position: fixed;
+top: 0px;
+width: 100px;
+font-size: large;
+padding: 15px;
+ }
+ .content{
+   margin-top: 70px;
+   padding: 15px;
+   height: 1500px;
+ }
+ .sticky{
+position: sticky;
+background-color: yellow;
+padding: 10px;
+ } */
+ .parent{
+    background-color: blue;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    
+ }
+ .child{
+    position: absolute;
+     background-color: bisque; 
+right: 20px;
+top: 20px;
+width: 100px;
+height: 50px;
+    }
+ 

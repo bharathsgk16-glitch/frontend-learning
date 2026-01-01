@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+.fix-nav{
+    position: fixed;
+    background-color: black;
+    display: inline-block;
+    color: antiquewhite;
+    padding: 10px;
+    top: 0;
+    z-index: 1000;
+    
+}
+.sticky{
+    background-color: black;
+    color: antiquewhite;
+  position: sticky;
+  top: 50px;
+  padding: 10px;
+   
+}
+.content{
+    height: 1500px;
+    padding: 5px;
+    margin: 60px;
+    
+}

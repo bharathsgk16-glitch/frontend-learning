@@ -1,0 +1,41 @@
+/* Display */
+.box{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+}
+.block{
+display: block;
+}
+.inline{
+    display: inline;
+ 
+   
+}
+.inline-block{
+    display: inline-block;
+}
+.inline-block{
+    width: 40px;
+}                               
+.parent{
+    position: relative;
+    height: 200px; 
+    border: 2px solid blue;
+}
+.child{
+    /* position: absolute; */
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    
+    background-color: coral;
+padding: 10px;
+
+}
+header{
+    position:sticky;
+    top:0;
+    background:black;
+    color: white;
+}
