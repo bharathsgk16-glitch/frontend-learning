@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+   
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+     width: 250px;
+  height: 150px;
+    align-items: center;
+    background-color: rgb(115, 186, 162);
+    
+font-size: 22px;
+padding: 50px;
+}
