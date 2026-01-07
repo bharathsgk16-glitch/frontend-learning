@@ -37,7 +37,22 @@ Learning how to display appers and postioning control elements by practicing
 - use flex properties understs
 -overflow concept learned controls what haeens content
 - do taks and miniporject
+![Flex Output](4-flex box/output.png)
 
 ### Mini-project output
-![flexbox_Output](4-flex box/output.png)
 
+
+## Outcome  of -4
+use of 1 dimensional resposive layout uses of flex properties how to control and some proactices
+
+
+## Day 5-Grid Layout
+- Used for 2 dimesional resposive layouts
+- used grid-templates us of columns and rows
+- Built full page structure pracices of tasks and mini project portfolio layout
+
+### Mini-porject output:
+![Grid Output](5-grid/grid-output.png)
+
+## Outcome -5
+Learned of grid layouts and they properties and do practices in layout
