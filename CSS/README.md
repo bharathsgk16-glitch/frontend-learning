@@ -56,3 +56,12 @@ use of 1 dimensional resposive layout uses of flex properties how to control and
 
 ## Outcome -5
 Learned of grid layouts and they properties and do practices in layout
+
+## Day-6 @Media-Query 
+- Used media queries
+- Mobile-first approach
+- Built responsive layout
+- And od samll and tasks and mini-projects(basic)
+
+### Mini-porject output:
+![Mediaquery Output](6-media-query/output-1.png)

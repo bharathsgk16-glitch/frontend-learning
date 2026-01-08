@@ -87,7 +87,7 @@ sticky(smart hybrid)-its act like raltive nothing normal but beacomes fixed afte
 
 here now we use z-inex overlapping order which explain we can keep like raltive,absolute,fixed,sticky as parent keep they z-ined as postioing 
 
-## Waht is css display |?
+## Waht is css display ?
 diceidesw how element should appear in a page like new line or same like we algn with
 - block start in new line and takes full width
 width and height work fully so we can do margin and padding wrok fully that means edit

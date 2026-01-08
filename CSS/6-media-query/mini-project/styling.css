@@ -1,0 +1,65 @@
+/* |Nav|Bar */
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Navbar{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+  padding: 10px;
+
+}
+.logo{
+font-size: 20px;
+}
+.menu{
+    
+margin-top: 20px;
+
+}
+/* |Heroes */
+.hereo{
+text-align: center;
+padding: 20px;
+}
+/* CARDS */
+.cards{
+display: grid;
+grid-template-columns: 1fr;
+gap: 15px;
+padding: 10px; ;
+}
+.card{
+background-color: black;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+footer{
+background-color: black;
+color: white;
+justify-content: center;
+padding: 20px;
+font-size: 10px;
+display: flex;
+  margin-top: auto;
+
+}
+@media(min-width:768px){
+    #Navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
