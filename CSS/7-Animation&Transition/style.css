@@ -1,0 +1,62 @@
+/* button{
+width: 100px;
+height:50px;
+background: rgb(18, 108, 144);
+color: white;
+transition: all 0.3s ease;
+}
+button:hover{
+    background-color: red;
+
+}
+.box{
+    background-color: bisque;
+    width: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    animation:move 2s infinite alternate;
+}
+@keyframes move{
+    from{
+        transform:translate(0);
+    }
+     to {
+    transform: translatey(20px);
+  }
+} */
+ button{
+display: inline-block;
+padding: 12px 24px;
+border:  none ;
+background-color:gray;
+cursor: pointer;
+transition: all 0.3s ease;
+
+
+ }
+ button:hover{
+background-color: red;
+color: white;
+transition: scale(1.1);
+ }
+ .cards{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+ }
+ .card{
+    background-color: blueviolet;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    transition: all 0.3s ease;
+ }
+ .card:hover{
+background-color: rgb(167, 103, 227);
+    box-shadow: 0 10px 25px  rgb(100, 60, 139);
+    transform: translatey(-20px);
+ }

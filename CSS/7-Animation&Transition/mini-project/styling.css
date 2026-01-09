@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.circle{
+height: 100px;
+background-color: blueviolet;
+width: 100px;
+border-radius: 50%;
+border: 6px solid #ddd;
+border-top: 6px  solid violet;
+animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    to{
+transform: rotate(360deg);
+    }
+}

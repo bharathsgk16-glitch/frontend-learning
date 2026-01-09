@@ -65,3 +65,16 @@ Learned of grid layouts and they properties and do practices in layout
 
 ### Mini-porject output:
 ![Mediaquery Output](6-media-query/output-1.png)
+
+## Outcome-7
+|Learned of media query of various size of screen and mobile approch responsively
+
+## Day-7 Animation & Transistion
+- Use of trasisition property and transforms
+- Animation properties 
+- Used transitions on hover
+- Built CSS loader animation
+- Do Tasks on hover and animation miniprokject
+
+### Mini-porject output:
+![Animation Output](7-Animation&Transition/output.png)
