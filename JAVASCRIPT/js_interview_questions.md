@@ -72,3 +72,59 @@ constant-cann't do anything(final)
 - Big Int
 * Non-|Primitive
 |Objects,Arrays,Fucntion(sotred in Heap memory)Refrence Type
+
+## What is Operator ?
+Operators symbols used to perform operation on values
+
+- Arihtmetic operators
+Its used perform calculation mathematical operation
++add,- Subract,* mutilply,/ Divide,% modulas(reminder)
+- Assignment Operator
+Its used to perform assinging values
++=,-=,*=,/=(its perform x=x+5)like that
+- Comparison Operators
+Operator	Meaning(used to compare two value)
+>Greater than
+< Less than
+>=	Greater or equal
+<=	Less or equal
+==	Equal (value only)
+===	Strict equal (value + datatype)
+!=	Not equal
+!==	Strict not equalwith datatype
+- Logical Operator
+Which used combine the coditions
+&& - and operator check if both codition are ture
+|| - or operator if any one is true
+
+Increment & Decrement operator
+which increase the value and decrease
+ex count=5;
+count ++;6
+count --;5
+
+operator precedecence
+BOdmas which runs before
+like first priorty -|()
+and then to * /
+and then come to + - this vicely(10 + 2)* 3
+
+## What is Conditonal Statement?
+conditon statment is which give decision which to give
+there is 
+* if -single condition
+* if-else -used to two outcome
+* if-else if-else- multiple condtion
+* switch - used chcek one value against many options
+ht syntax:
+switch(value) {
+  case option1:
+    // code
+    break;
+  case option2:
+    // code
+    break;
+  default:
+    // code
+}
+(the cjump condtion like break- stop and then continue skip)
