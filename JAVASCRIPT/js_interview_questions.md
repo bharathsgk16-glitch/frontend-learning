@@ -127,4 +127,10 @@ switch(value) {
   default:
     // code
 }
-(the cjump condtion like break- stop and then continue skip)
+(the jump condtion like break- stop and then continue skip)
+
+What is Loop?
+Loops is repeat code unitl a condtion is true|(used to avoid repeatation,process data)
+* for loop -when you know how many times to repeat 
+* while loop - used when you don't know how many times,but you know the condition
+* do-while loop - Even if condtion is false,cdoe runs one time
