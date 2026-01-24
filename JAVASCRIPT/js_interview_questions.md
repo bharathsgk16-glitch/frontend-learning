@@ -134,3 +134,11 @@ Loops is repeat code unitl a condtion is true|(used to avoid repeatation,process
 * for loop -when you know how many times to repeat 
 * while loop - used when you don't know how many times,but you know the condition
 * do-while loop - Even if condtion is false,cdoe runs one time
+
+## What is Arrays and how works?
+Array is collection of value stored in one variable(sotring multiple value)
+like let number=[10,30,20]
+      let names=["Bhararth","Raj"]
+## What is funtion ?
+Fucntion is reusable block of code
+(it of writing same code again and agian)
