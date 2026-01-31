@@ -184,3 +184,141 @@ for(let i=0;i<name.length;i++){
 ## What is funtion ?
 Fucntion is reusable block of code
 (it of writing same code again and agian)
+key of using:reusabiltiy,less code 
+Syntax :
+function functionName() {
+  // code
+}
+ex:function greet(){
+  console.log("Hello");
+}
+greet();
+##### we can return used funtion(return sends value back.)
+function add(a, b) {
+  return a + b;
+}
+
+let result = add(10, 20);
+console.log(result);
+another ex: funtion can stored in varaible
+const func=function(a,b){
+  return a*b;
+};
+console.log(func(1,2))
+
+Modern way use arrrow funtion
+const greet=()=>{
+  console.log("hellow")
+}
+greet();
+if two operation
+const add = (a, b) => {
+  return a + b;
+};
+
+if single we can
+const onepara=n=>n*n;
+console.log(square(5));
+
+Difference between function & arrow function?
+
+👉 Arrow functions:
+
+Short syntax
+
+No this binding
+
+Used in modern JS
+
+##### Callback- funciton passed  into another function as argument
+
+funtion greet(name){
+  console.log("Hello"+name);
+}
+//greet(bharath)
+funtion proceesuser(callback){
+  let name="Bharath";
+  callback(name);
+}
+processuser(greet);
+
+another function-function sayHi(){
+  console.log("Hi");
+}
+funtion result(callback){
+cllaback();
+}
+result(sayHi) used for time out
+
+##### Anonymus funtion -An anonymous function is a function without a name.
+function () {
+  console.log("Hello");
+}
+features-Stored in variables
+- Passed as callbacks
+- Used immediately
+
+used most setTimeout(function() {
+  console.log("Hello after 2 sec");
+}, 2000);
+
+imediate invoked (function() {
+  console.log("Run immediately");
+})();
+
+Thi funtions concept that is:
+What is Scope?
+ Scope = Where a variable can be accessed
+ - The Global scoper -variable declared outside funtion
+ hat is Scope?
+let x = 10;
+
+function test() {
+  console.log(x);
+}
+test(); // 10
+
+x is accessible everywhere
+
+- Local Scope (Function Scope)
+Variable declared inside function.
+function test() {
+  let y = 20;
+  console.log(y);
+}
+test();
+// console.log(y); ❌ Error
+##### What is closure?
+A function remembers variables from its outer function even after outer function is finished.
+ex:function outer() {
+  let count = 0;
+
+  return function inner() {
+    count++;
+    console.log(count);
+  };
+}
+
+let counter = outer();
+
+counter();
+counter();
+counter();
+function outer() {
+  let count = 0;
+
+  return function inner() {
+    count++;
+    console.log(count);
+  };
+}
+
+let counter = outer();
+
+counter();
+counter();
+counter();
+closure = Function + Memory of outer variables
+// to knwofor...of = “give me values”
+
+👉 for...in = “give me indexes”
