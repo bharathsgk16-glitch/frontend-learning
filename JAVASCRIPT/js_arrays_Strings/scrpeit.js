@@ -1,18 +1,53 @@
-let arr=[10,20,30];
-let sum=0;
+//Array taks
+//task1- sums
+// let arr=[10,20,30];
+// let sum=0;
+// for(let i=0;i<arr.length;i++){
+// sum+=arr[i];
+// }
+// console.log(sum);
+
+//Largest Number
+let arr=[3,7,2,9];
+let largest=arr[0];
+
 for(let i=0;i<arr.length;i++){
-    sum+=arr[i];
+if(arr[i]>largest){
+  largest=arr[i  ];
+}
 
 }
-console.log(sum)
+console.log(largest)
+//task reverse
+let str='hello';
+let rev="";
 
-let arrs = [3, 7, 2, 9];
-let largest = arrs[0];
+for(let i=
+  str.length-1;i>=0;i--){
+  rev+=str[i]
+}
+console.log(rev);
+//task count vowels
+let strs="javascript";
+let countvowels=0;
+for(let i=0;i<strs.length;i++){
+  if(strs[i] === "a" ||
+    strs[i] === "e" ||
+    strs[i] === "i" ||
+    strs[i] === "o" ||
+    strs[i] === "u"){
+   countvowels++;
+  }
+}
+//Another method
+console.log(countvowels);
+let str = "javascript";
+let count = 0;
 
-for (let i = 1; i < arrs.length; i++) {
-  if (arrs[i] > largest) {
-    largest = arrs[i];
+for (let ch of str) {
+  if ("aeiou".includes(ch)) {
+    count++;
   }
 }
 
-console.log("Largest number:", largest);
+console.log(count);

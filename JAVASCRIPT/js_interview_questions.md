@@ -11,7 +11,7 @@ in webrowser
 History-introduce in Breden_Eich-netsen Developer
 
 like timelin goeson - Hister Mocha(1995)- Live Script(1996)-js 1 Es 14 Ecma-Ecama Intern 20(1997)-ES3 conv IES -Error Handling(1999)-Dougler Crock form ideal oops Json(2009)-2015-es6(used all version as universal script)|(ECMA script 2021)
-
+Ecma-Script-1 start 1997 t0 currently  2023 Ecma -14
 - html -structure
 - CSS-design
 - JS- Logic + behaviour ex button click
@@ -139,6 +139,48 @@ Loops is repeat code unitl a condtion is true|(used to avoid repeatation,process
 Array is collection of value stored in one variable(sotring multiple value)
 like let number=[10,30,20]
       let names=["Bhararth","Raj"]
+      access by array by console.log(numbr[0]); index accessing
+      number.length- to know the length
+      - looping though the array
+      for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+Mehtods used:
+let fruits=["apple","banana"];
+- fruits.push("organge); - add it
+- furits.pop(); remove the last
+- fruits.shift(); - remove first
+- fruits.unshift(); - add first
+There is modern array methods used |:
+- forEach
+arr.forEach(num=>{
+  console.log(num)
+})
+-map(transform arry) it modify each element give new array |(orginal array stay safe)
+#### “forEach is used for iteration without returning anything.map transforms each element and returns a new array filter selects elements based on condition.reduce combines all values into a single result.”
+
+## What String in js?
+A string is a sequence of character(text)
+let name = "Bharath";
+name.length;          // length 7
+name.toUpperCase();   // BHARATH
+name.toLowerCase();   // bharath
+name.includes("a");   // true(its there not)
+name.charAt(0);       // B
+name.indexof(B);//0
+name.slice(0,3) //bha //its till 2 scond index
+name.split(",")//split by comma
+let str = "JavaScript";
+str.slice(4, 10); // Script
+str.slice(4);    // Script (start from index and stop till end)
+str.slice(-6);   // Script (from back)
+
+Looping|:
+let name="bharath";
+for(let i=0;i<name.length;i++){
+  console.log(name[i])
+}
+
 ## What is funtion ?
 Fucntion is reusable block of code
 (it of writing same code again and agian)
