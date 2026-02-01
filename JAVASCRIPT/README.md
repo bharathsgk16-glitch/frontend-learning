@@ -58,3 +58,13 @@ The study of logic with loops and to create
 - Count vowels
 ## Outcome:
 The study of logic with array methods using loops and smae for string methods to create simply
+
+## JavaScript Day 05 – Functions
+
+### Covered
+- Fucntion creation and with return function
+- Used Arrow Funtiona and also with parameter
+- And also using anonymous funtions and callback funtion how to work
+-  Hositing scopees
+## Outcome:
+The study of using funtion and return with simple taks and mini program

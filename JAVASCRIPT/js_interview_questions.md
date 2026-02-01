@@ -151,12 +151,7 @@ let fruits=["apple","banana"];
 - furits.pop(); remove the last
 - fruits.shift(); - remove first
 - fruits.unshift(); - add first
-There is modern array methods used |:
-- forEach
-arr.forEach(num=>{
-  console.log(num)
-})
--map(transform arry) it modify each element give new array |(orginal array stay safe)
+
 #### “forEach is used for iteration without returning anything.map transforms each element and returns a new array filter selects elements based on condition.reduce combines all values into a single result.”
 
 ## What String in js?
@@ -322,3 +317,26 @@ closure = Function + Memory of outer variables
 // to knwofor...of = “give me values”
 
 👉 for...in = “give me indexes”
+
+## Modern methods Arrays used :
+Ex with known and what :
+
+
+- map()- transforms array
+change each item and retruns a new array(Does NOT change original array)
+example:
+const names = ["bharath", "raj"];
+const upperNames = names.map(name => name.toUpperCase());
+:: change to uppercase change to form
+
+- filter () -condtion  and fitler it they which keep item match
+length may change
+ Original array unchanged
+ even numbers;
+ let num+[2,34,4,62]
+ const even= number.filter(n=> num%2===0);
+ console.log(even)
+
+ - reduce()- single value reduces
+reduces to array into  one result
+|andthe with this we can 

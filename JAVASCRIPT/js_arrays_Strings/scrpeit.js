@@ -41,10 +41,10 @@ for(let i=0;i<strs.length;i++){
 }
 //Another method
 console.log(countvowels);
-let str = "javascript";
+let strss = "javascript";
 let count = 0;
 
-for (let ch of str) {
+for (let ch of strss) {
   if ("aeiou".includes(ch)) {
     count++;
   }
