@@ -17,6 +17,22 @@ Attribute:“Attributes provide additional information to an element, like id, c
 # 4.What is Text Foramting|?
 Text formstes is how to display and organised text webpages like italic,bolds,heading,para etc
 Preformatted text- that means what we give directly show in browser
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
 
 # 5.|Lists what they use and its types?
 lists used to group related itemk clearly and structurely three ways-unorder list,order list,and descrption list
@@ -29,10 +45,25 @@ Discription list-used for terms and definition discription(and then use of neste
 -hyper links are to open another page,website,or file or move to another section with using <a> anchor tag the which context is clickable,href for distination and textlist for clickable and using attribute we can put same table or different web ages usig _self and _blank 
 And two ways Abosolute for using url for external website and then Relative links for using path for internal webiste.
 
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+Example
+
 -|Image - used to display image on webiste and self closing tag and  src for links for image and alternatic (alt) attribute to screen reader or when image faisl there it be alternative text and for using height and width
 
 # 7.What Html Table and its how to form it?
 To display rows and columns (the form tablur form) and its to organise data in row and column commonly used in student marks etc an then from using tags like <table>,<tr>-Table row,<td>-table data,<th>-table heading,row inside heading orn data and columns we accordingly and we use sematic taga and colspan and rowspan to extend tables
+Collapsed Table Borders
+To avoid having double borders like in the example above, set the CSS border-collapse property to collapse.border clopse
+
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
 
 # 8.What html mediatags and meta tags
  html embeded media content direclty to webpage
